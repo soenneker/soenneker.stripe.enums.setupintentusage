@@ -1,11 +1,11 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Stripe.Enums.SetupIntentUsage;
 
 /// <summary>
 /// Indicates how the setup intent will be used once saved. Used for Stripe SetupIntents.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class SetupIntentUsage
 {
     /// <summary>
