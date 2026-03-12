@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Stripe.Enums.SetupIntentUsage.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Stripe.Enums.SetupIntentUsage\Soenneker.Stripe.Enums.SetupIntentUsage.csproj" />
     </ItemGroup>
 
     <ItemGroup>
