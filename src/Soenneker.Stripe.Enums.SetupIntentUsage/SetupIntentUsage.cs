@@ -3,7 +3,7 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Stripe.Enums.SetupIntentUsage;
 
 /// <summary>
-/// Indicates how the setup intent will be used once saved. Used for Stripe SetupIntents.
+/// Represents how a payment method saved by a Stripe SetupIntent will be used later.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class SetupIntentUsage
